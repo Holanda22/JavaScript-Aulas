@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(155, 155, 155);
+    text-align: center;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.705)
+}
+.menu{
+    text-align: center;
+}
+
+.menu h1{
+    font-size: 90px;
+    color: rgb(189, 189, 189);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+}
+.menu img{
+    margin-top: 20px;
+    width: 200px;
+}
+
+
+.rodape {
+    background-color: rgb(238, 238, 238);
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+.rodape p{
+    font-size: 18px;
+    margin: 0;
+}
+#logo{
+    margin-top: 20px;
+    width: 150px;
+}
+.redes{
+    display: inline;
+    width: 70px;
+}
+
+.buttons-video{
+    text-align: center;
+    margin: 10px;
+}
+.btn-video{
+    background-color: rgb(39, 39, 39);
+    color: white;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px;
+    border-radius: 5px;
+}

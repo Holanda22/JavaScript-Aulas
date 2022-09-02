@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css" type="text/css">
+    <link rel="icon" href="img/logo.png">
+    <title>Thiaguinho</title>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <img src="img/logo.png"> 
+            <h1> THIAGUINHO </h1>
+        </div>
+    </header>
+    <div>
+        <h1> SUAS MÚSICAS </h1>
+
+        <div>
+            <div>
+                <h2> Ta Vendo Aquela Lua </h2>
+                <video id="video1" width="650" controls="controls"> <source src="midia/Exaltasamba - Tá Vendo Aquela Lua - DVD EXALTASAMBA 25 ANOS AO VIVO.mp4" type="video/mp4"> </video>
+            </div>
+            <div>
+                <div class="buttons-video" role="group" aria-label="Exemplo básico">
+                    <button type="button" class="btn-video" onclick="playPause1()">Play/Pause</button> 
+                    <button type="button" class="btn-video" onclick="ampliar1()">Ampliar</button>
+                    <button type="button" class="btn-video" onclick="reduzir1()">Reduzir</button>
+                    <button type="button" class="btn-video" onclick="tamanhoNormal1()">Tamanho Normal</button>
+                    <button type="button" class="btn-video" onclick="telaCheia1()">Tela Cheia</button>
+                </div>
+                <div class="buttons-video" role="group" aria-label="Exemplo básico">
+                    <button type="button" class="btn-video" onclick="aumentarVolume1()">Volume +</button>
+                    <button type="button" class="btn-video" onclick="diminuirVolume1()">Volume -</button>
+                    <button type="button" class="btn-video" onclick="mudo1()">Mudo</button>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h2> Pé Na Areia </h2>
+            <video id="video2" width="650" controls="controls"> <source src="midia/Thiaguinho - Pé Na Areia (Tardezinha no Maraca) [Vídeo Oficial].mp4" type="video/mp4"> </video>
+            <div>
+                <div class="buttons-video" role="group" aria-label="Exemplo básico">
+                    <button type="button" class="btn-video" onclick="playPause2()">Play/Pause</button> 
+                    <button type="button" class="btn-video" onclick="ampliar2()">Ampliar</button>
+                    <button type="button" class="btn-video" onclick="reduzir2()">Reduzir</button>
+                    <button type="button" class="btn-video" onclick="tamanhoNormal2()">Tamanho Normal</button>
+                    <button type="button" class="btn-video" onclick="telaCheia2()">Tela Cheia</button>
+                </div>
+                <div class="buttons-video" role="group" aria-label="Exemplo básico">
+                    <button type="button" class="btn-video" onclick="aumentarVolume2()">Volume +</button>
+                    <button type="button" class="btn-video" onclick="diminuirVolume2()">Volume -</button>
+                    <button type="button" class="btn-video" onclick="mudo2()">Mudo</button>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h2> Falta Você </h2>
+            <video id="video3" width="650" controls="controls"> <source src="midia/Thiaguinho - Falta Você (Infinito Vol. 2) [Vídeo Oficial].mp4" type="video/mp4"> </video>
+            <div>
+                <div class="buttons-video" role="group" aria-label="Exemplo básico">
+                    <button type="button" class="btn-video" onclick="playPause3()">Play/Pause</button> 
+                    <button type="button" class="btn-video" onclick="ampliar3()">Ampliar</button>
+                    <button type="button" class="btn-video" onclick="reduzir3()">Reduzir</button>
+                    <button type="button" class="btn-video" onclick="tamanhoNormal3()">Tamanho Normal</button>
+                    <button type="button" class="btn-video" onclick="telaCheia3()">Tela Cheia</button>
+                </div>
+                <div class="buttons-video" role="group" aria-label="Exemplo básico">
+                    <button type="button" class="btn-video" onclick="aumentarVolume3()">Volume +</button>
+                    <button type="button" class="btn-video" onclick="diminuirVolume3()">Volume -</button>
+                    <button type="button" class="btn-video" onclick="mudo3()">Mudo</button>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h2> Deixa Tudo Como Tá </h2>
+            <video id="video4" width="650" controls="controls"> <source src="midia/Thiaguinho - Deixa Tudo Como Tá (Clipe Oficial).mp4" type="video/mp4"> </video>
+            <div>
+                <div class="buttons-video" role="group" aria-label="Exemplo básico">
+                    <button type="button" class="btn-video" onclick="playPause4()">Play/Pause</button> 
+                    <button type="button" class="btn-video" onclick="ampliar4()">Ampliar</button>
+                    <button type="button" class="btn-video" onclick="reduzir4()">Reduzir</button>
+                    <button type="button" class="btn-video" onclick="tamanhoNormal4()">Tamanho Normal</button>
+                    <button type="button" class="btn-video" onclick="telaCheia4()">Tela Cheia</button>
+                </div>
+                <div class="buttons-video" role="group" aria-label="Exemplo básico">
+                    <button type="button" class="btn-video" onclick="aumentarVolume4()">Volume +</button>
+                    <button type="button" class="btn-video" onclick="diminuirVolume4()">Volume -</button>
+                    <button type="button" class="btn-video" onclick="mudo4()">Mudo</button>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h2> Buquê de Flores </h2>
+            <video id="video5" width="650" controls="controls"> <source src="midia/Thiaguinho - Buquê de Flores.mp4" type="video/mp4"> </video>
+            <div>
+                <div class="buttons-video" role="group" aria-label="Exemplo básico">
+                    <button type="button" class="btn-video" onclick="playPause5()">Play/Pause</button> 
+                    <button type="button" class="btn-video" onclick="ampliar5()">Ampliar</button>
+                    <button type="button" class="btn-video" onclick="reduzir5()">Reduzir</button>
+                    <button type="button" class="btn-video" onclick="tamanhoNormal5()">Tamanho Normal</button>
+                    <button type="button" class="btn-video" onclick="telaCheia5()">Tela Cheia</button>
+                </div>
+                <div class="buttons-video" role="group" aria-label="Exemplo básico">
+                    <button type="button" class="btn-video" onclick="aumentarVolume5()">Volume +</button>
+                    <button type="button" class="btn-video" onclick="diminuirVolume5()">Volume -</button>
+                    <button type="button" class="btn-video" onclick="mudo5()">Mudo</button>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <button type="button" class="btn-feedback" onclick="opiniao()"> FEEDBACK </button>
+        </div>
+    </div>
+    <footer>
+        <div class="rodape">
+            <a href="https://pt-br.facebook.com/thiaguinhocomth"><img id="logo" src="img/logo.png"></a> <br>
+            <p> Encontre Thiaguinho nas redes: </p>
+            <a href="https://www.instagram.com/thbarbosa/"><img class="redes" src="img/insta.png"></a>
+            <a href="https://thiaguinho.net/"><img class="redes" src="img/face.png"></a>
+            <a href="https://www.youtube.com/c/thiaguinhocomth"><img class="redes" src="img/youtube.png"></a>
+            <a href="https://open.spotify.com/artist/1vppDmG3i5sXf3DJzrK4T1"><img class="redes" src="img/spotify.png"></a>
+
+        </div>
+    </footer>
+    <script src="JS/scriptvideo.js"></script>
+    <script src="JS/scriptopiniao.js"></script>
+</body>
+</html>
